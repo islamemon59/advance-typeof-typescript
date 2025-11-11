@@ -11,7 +11,9 @@ type Age<X, Y> = [X, Y];
 const age1: Age<number, number> = [20, 20];
 const age2: Age<string, string> = ["20", "20"];
 
-const user: IsGeneric<{name: string, age: number}> = [
+type User = {name: string, age: number}
+
+const user: IsGeneric<User> = [
   {
     name: "emon",
     age: 20,
