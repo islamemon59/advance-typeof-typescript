@@ -1,3 +1,5 @@
+// Constraint strictly ruled dewa
+
 type Student = {
     id: number,
     name: string,
