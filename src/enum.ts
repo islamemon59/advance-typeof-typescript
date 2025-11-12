@@ -24,7 +24,7 @@ enum UserRole {
     Viewer = "Viewer"
 }
 
-const canEdit = (role : UserRole) => {
+const canEdit = (role : UserRole)  => {
     if(role === UserRole.Admin || role === UserRole.Editor){
         return true;
     } else return false;
